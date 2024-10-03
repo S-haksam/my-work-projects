@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    height: 80px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+nav :hover{
+    color: gold;
+}
+
+header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.welcome {
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+
+.talents {
+    padding: 20px;
+}
+
+.talents h2 {
+    text-align: center;
+    color: #333;
+}
+
+.talents-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to a new line */
+    gap: 20px; /* Adds space between items */
+    justify-content: center;
+}
+
+.talents-view {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 250px; /* Set a fixed width */
+    text-align: center;
+}
+
+.talents-view img, .talents-view video {
+    width: 100%; /* Make images and video fill the container */
+    height: auto;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
